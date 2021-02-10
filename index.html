@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ClearBit Demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="m-5 text-center">🕵️‍♂️ ClearBit Demo 🕵️‍♀️</h1>
+
+      <form class="form-inline m-5" id="clearbitForm">
+        <input class="form-control ml-auto" type="text" placeholder="Stalk someone" id="clearbitEmail">
+        <input class="form-control mr-auto btn btn-primary" type="submit" id="clearbitSubmit">
+      </form>
+
+      <table class="table mt-4">
+        <tr class="d-flex justify-content-center text-right">
+          <th class="col-1">Name:</th>
+          <td class="col-8 col-md-5" id="userName">???</td>
+        </tr>
+        <tr class="d-flex justify-content-center text-right">
+          <th class="col-1">Email:</th>
+          <td class="col-8 col-md-5" id="userEmail"></td>
+        </tr class="d-flex">
+        <tr class="d-flex justify-content-center text-right">
+          <th class="col-1">Bio:</th>
+          <td class="col-8 col-md-5" id="userBio"></td>
+        </tr>
+        <tr class="d-flex justify-content-center text-right">
+          <th class="col-1">Location:</th>
+          <td class="col-8 col-md-5" id="userLocation"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="dist/main.js"></script>
+  </body>
+</html>
